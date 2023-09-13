@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Overall{
+    height: 100vh;
+    width: 100%;
+    
+
+}
+
+.parent1{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+    
+}
+.box1{
+    height: 300px;
+    width: 450px;
+    background-color:white;
+    margin-top: 40px;
+    
+
+}
+.e{
+    color: orangered;
+    font-size: 30px;
+    
+}
+.parent2{
+       height: 300px;
+       width: 100%;
+       background-color: white;
+       display: flex;
+       gap: 32px;
+       justify-content: center;
+       align-items: center;
+
+}
+.d{
+    display: inline-block;
+    font-size: 28px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+
+h3{
+    margin-left: 10px;
+    margin-top: 20px;
+    display:inline-block;
+    color: orangered;
+    
+    
+
+}
+.ha{
+    
+    color: orangered;
+}
+.f{
+
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 12px;
+    
+}
+.box2{
+    height: 150px;
+    width: 220px;
+    background-color: white;
+  
+}
+   .hh{
+   
+    font-size: 30px;
+   } 
+.ba{
+    background-color: orangered;
+    color: white;
+}
+
+   
+.p1{
+    margin-left: 46px;
+    margin-top: 10px;
+}
+button{
+     width: 250px;
+    height: 30px; 
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.hd{
+    margin-right: 20px;
+    font-size: 30px;
+    color: orangered;
+}
+.fc{
+    margin-top: 12px;
+}
+.c{
+    font-size: 28px;
+    margin-top: 15px;
+    color: yellowgreen;
+    
+}
+
+@media  only screen and (min-width:530px) and (max-width:850px){
+    .parent1{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+        gap: 0px;
+        background-color: yellowgreen;
+        
+    }
+    .parent2{
+        flex-direction: column;
+        height: 700px;
+        background-color: yellowgreen;
+        
+    }
+    .box2{
+        height: 300px;
+        width: 450px;
+        text-align: center;
+    }
+    .mm{
+        margin-top: 40px;
+    }
+    .ma{
+        background-color: yellowgreen;
+    }
+    .cq{
+        width: 100%;
+    }
+
+}
+
+@media  only screen and (min-width:300px) and (max-width:530px){
+    .parent1{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+        gap: 0px;
+        background-color: yellowgreen;
+    }
+    .parent2{
+        flex-direction: column;
+        height: 700px;
+        background-color: yellowgreen;
+    }
+    .box2{
+        height: 200px;
+        width: 350px;
+        text-align: center;
+        
+    }
+    
+    .box1{
+        height: 300px;
+        width: 350px;
+    }
+    .mm{
+        margin-top: 70px;
+    }
+     .cq{
+        height: 300px;
+        width: 350px;
+     }
+     .ma{
+        background-color: yellowgreen;
+     }
+
+}
+
+
+
+    
